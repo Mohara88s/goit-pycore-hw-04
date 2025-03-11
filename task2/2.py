@@ -21,10 +21,6 @@ def get_cats_info(path:str)->list[dict]:
     return list_of_cats
 
 
-
-
-
-
 if __name__ == "__main__":
     cats_info = get_cats_info("path/to/cats_file.txt")
     print(cats_info)
